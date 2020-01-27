@@ -1,0 +1,72 @@
+ARRAYS
+
+An array refers to a set of similar elements. It consists of an index. 
+This acts as a pointer to each element of this structure. Unlike most other data storage types,
+arrays have a fixed length. Its elements are placed in a contiguous fashion. 
+Each of the data item has a fixed memory address. An array can have rows and columns as well.
+If the value of the index is given for a single record,
+the values of the other records can be computed with an easy mathematical calculation.
+
+Applications: Implementation of other data structures, Execution of matrices and vectors,
+Dynamic memory allocation, Pointer container, Control tables
+
+STACKS
+Stack refers to an orderly arrangement of data.
+It consists of just one end. This end is used for both, data addition as well as removal. 
+It is said to follow the LIFO pattern, which implies that the last data item to enter is the first one to be removed.
+It is also sometimes termed as the pushdown stack. ‘Push’ and ‘Pop’ are the two functions of this data structure.
+Push is a function defined for adding data, and Pop is for popping out or deleting the data.
+Applications: Evaluation of expressions, Backtracking, Runtime memory management, Arrangement of books in a library.
+
+QUEUE
+A queue is a list with a linear pattern which has two ends: front and rear.
+The front end allows deletion of data items from the list.
+The rear end allows insertion of data items into the list.
+In case of a queue, the input data doesn’t need to be processed immediately.
+In fact, the data is processed in a FIFO fashion. It is very efficient for scenarios wherein 
+data is transferred between different processes.
+Here, the data sent need not be received at the same rate at which it was sent.
+A certain system resource is to be shared between different processes.
+Applications: Disk scheduling, CPU scheduling, File IO, Data transmission
+
+LINKED LIST
+A linked list is a collection of objects which are linked to each other in a linear pattern.
+Each of these objects is called a node. The first object is called the front node or the head.
+Each of the nodes store some data in them. One important feature of this type of list is that
+the data is not stored in contiguous locations. Every object has two components – one is the data part
+and the other is the address of the node to which it is pointing. The nodes are not continuous,
+and can lie in any part of the memory.
+Applications: Representation of sparse matrices, Non-contiguous data storage,
+Implementation of non-binary tree or other data structures, Dynamic memory management, Equalizing parenthesis,
+Symbol tables.
+
+GRAPHS
+A graph consists of a bounded set of nodes (also termed as vertices).
+A pair of two nodes is called an edge. Each node has some data associated with it.
+Whereas, the edges indicate the pointers between the nodes. For two nodes ‘a’ and ‘b’, 
+its edge can be represented as (a,b). This type of structure represents the concept of graphs in mathematics.
+
+Applications: Computer networking, Problem solutions involving ‘Depth-First’ search or ‘Breadth-First’
+search algorithms, Representation of matrices, Study of molecular interactions in Chemistry.
+
+TREE
+A tree consists of a set of nodes which are linked via pointers. 
+Each structure has a root node and branches containing the remaining data nodes.
+In case of an ordered tree, the nodes or objects are ordered in a sequence.
+In case of an unordered tree, no ordering exists. A tree having no data or nodes is called an empty or null tree.
+
+Applications: Representation of data lists, Quickly accessible data storage,
+Representation of hierarchal data, Routing of algorithms.
+
+HASH TABLE
+Hash table is a type of table whose main function, in addition to data storage,
+is mapping the keys to values. The table has some keys to be mapped, a hash function, and buckets.
+Each bucket is an array which stores data. The role of the hash function is to map the keys to the buckets.
+Each key is allotted to a unique bucket. This structure also accommodates the feature that multiple keys will be
+assigned to the same bucket by the hash function of the table.
+
+Applications: Unique data representation, Implementation of caches, Array association,
+Locating entries in a table, Representation of objects, Database indexing.
+
+
+
