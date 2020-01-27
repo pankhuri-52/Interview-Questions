@@ -1,0 +1,21 @@
+The key difference is that RDBMS (relational database management system) applications store data in a tabular form,
+while DBMS applications store data as files.
+
+Does that mean there are no tables in a DBMS?
+
+There can be, but there will be no “relation” between the tables, like in a RDBMS. 
+In DBMS, data is generally stored in either a hierarchical form or a navigational form. 
+This means that a single data unit will have one parent node and zero, one or more children nodes.
+It may even be stored in a graph form, which can be seen in the network model.
+
+In a RDBMS, the tables will have an identifier called primary key. 
+Data values will be stored in the form of tables. The relationships between these data values will be stored 
+in the form of a table as well. Every value stored in the relational database is accessible. 
+This value can be updated by the system. The data in this system is also physically and logically independent.
+
+You can say that a RDBMS is an extension of a DBMS, even if there are many differences between the two.
+Most software products in the market today are both DBMS and RDBMS compliant. Essentially,
+they can maintain databases in a (relational) tabular form as well as a file form, or both.
+This means that today a RDBMS application is a DBMS application, and vice versa.
+However, there are still major differences between a relational database system for
+storing data and a plain database system.
